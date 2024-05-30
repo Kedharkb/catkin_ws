@@ -1,0 +1,5 @@
+digraph G {
+"world" -> "map"[label="Broadcaster: /world2map\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+"world" -> "base_footprint"[label="Broadcaster: /world_to_base_footprint_tf\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+"base_footprint" -> "velodyne_base_link"[label="Broadcaster: /lidar_to_vehicle_tf\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 \nBuffer length: 0.000 sec\n"];
+}

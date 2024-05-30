@@ -1,0 +1,39 @@
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore Python compiled files
+*.py[cod]
+*$py.class
+
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS specific files
+.DS_Store
+
+build/
+devel
+
+src/__pycache__
+
+src/scripts/camera_images/
+src/scripts/labelled_camera_images/
+src/scripts/labelled_point_cloud_images/
+src/scripts/point_cloud_images/
+src/scripts/pose_messages/
+src/scripts/point_cloud_bins/
+src/**/*.jpg
+src/**/*.png
+src/**/*.npy
+src/**/*.zip
