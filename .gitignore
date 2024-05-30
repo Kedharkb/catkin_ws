@@ -37,3 +37,4 @@ src/**/*.jpg
 src/**/*.png
 src/**/*.npy
 src/**/*.zip
+src/**/*.bin
